@@ -77,7 +77,7 @@ The purpose of this project is to show how my operational experience has prepare
 - **Industrial:** Log tank levels, transfers, chemical usage, timing, and all process steps  
 - **SOC Equivalent:** Document alerts, investigation steps, findings, and resolution in ticketing systems
 
-- ## Real-World Scenario Comparisons
+ ## Real-World Scenario Comparisons
 
 ### Scenario 1: Hidden Contamination vs Hidden Threat
 
