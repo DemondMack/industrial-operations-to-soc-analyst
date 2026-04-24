@@ -75,4 +75,67 @@ The purpose of this project is to show how my operational experience has prepare
 ### Documentation
 
 - **Industrial:** Log tank levels, transfers, chemical usage, timing, and all process steps  
-- **SOC Equivalent:** Document alerts, investigation steps, findings, and resolution in ticketing systems  
+- **SOC Equivalent:** Document alerts, investigation steps, findings, and resolution in ticketing systems
+
+- ## Real-World Scenario Comparisons
+
+### Scenario 1: Hidden Contamination vs Hidden Threat
+
+**Industrial Situation:**
+A batch of oil appears visually clean, but testing reveals contamination (PCB levels or moisture still present).
+
+**My Actions:**
+- Pulled and analyzed samples using lab software  
+- Identified contamination not visible to the eye  
+- Determined correct processing path (drying, chemical treatment)  
+- Re-tested after each stage to confirm safe levels  
+
+**SOC Equivalent:**
+A system appears normal, but an alert indicates suspicious activity.
+
+**SOC Actions:**
+- Analyze alert in SIEM  
+- Investigate logs and system behavior  
+- Identify root cause  
+- Remediate and validate the system is clean  
+
+---
+
+### Scenario 2: High-Risk Chemical Reaction vs High-Impact Threat
+
+**Industrial Situation:**
+During water washing, improper water flow can cause sodium to react rapidly, leading to explosion risk.
+
+**My Actions:**
+- Controlled water flow rate precisely  
+- Monitored gauges and system behavior continuously  
+- Prevented rapid reaction conditions  
+- Maintained safe operating thresholds  
+
+**SOC Equivalent:**
+Improper handling of a security incident can escalate impact across systems.
+
+**SOC Actions:**
+- Carefully control response actions  
+- Avoid overcorrection that disrupts operations  
+- Balance containment with system stability  
+
+---
+
+### Scenario 3: System Imbalance vs Active Threat Behavior
+
+**Industrial Situation:**
+High vacuum combined with high moisture causes foaming and overflow risk.
+
+**My Actions:**
+- Detected abnormal system behavior early  
+- Adjusted vacuum levels in real time  
+- Prevented overflow and equipment failure  
+
+**SOC Equivalent:**
+A spike in activity indicates possible attack or misconfiguration.
+
+**SOC Actions:**
+- Detect abnormal behavior patterns  
+- Adjust monitoring or response strategy  
+- Prevent escalation or system disruption    
